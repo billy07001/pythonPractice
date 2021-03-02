@@ -40,5 +40,3 @@ print(b)
 age = 20
 c = "My name is {} and I'm {} years old"
 print(c.format(author, age))  # 格式化輸出 將括號內參數填至{}
-
-print(x)
