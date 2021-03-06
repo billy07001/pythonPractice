@@ -19,7 +19,6 @@ def test():
     global x
     x = "Billy is handsome"
 
-
 test()
 
 print(x)
@@ -40,3 +39,9 @@ print(b)
 age = 20
 c = "My name is {} and I'm {} years old"
 print(c.format(author, age))  # 格式化輸出 將括號內參數填至{}
+
+def test2(name = "Billy"):
+    print( name +" is genious")
+
+test2()
+test2("Pio")
